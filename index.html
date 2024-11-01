@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Unit Converter</h1>
+
+      <div class="converter">
+        <label for="celsius">Celsius to Fahrenheit:</label>
+        <input type="number" id="celsius" placeholder="Enter Celsius" />
+        <button id="convertCtoF">Convert</button>
+      </div>
+
+      <div class="converter">
+        <label for="fahrenheit">Fahrenheit to Celsius:</label>
+        <input type="number" id="fahrenheit" placeholder="Enter Fahrenheit" />
+        <button id="convertFtoC">Convert</button>
+      </div>
+
+      <div class="converter">
+        <label for="miles">Miles to Kilometers:</label>
+        <input type="number" id="miles" placeholder="Enter Miles" />
+        <button id="convertMtoK">Convert</button>
+      </div>
+
+      <div class="converter">
+        <label for="kilometers">Kilometers to Miles:</label>
+        <input type="number" id="kilometers" placeholder="Enter Kilometers" />
+        <button id="convertKtoM">Convert</button>
+      </div>
+
+      <div id="history" class="history">
+        <h2>Calculation History</h2>
+        <ul id="historyList">
+          <li>No calculations yet.</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
